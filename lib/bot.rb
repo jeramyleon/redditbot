@@ -12,6 +12,7 @@ resp["data"]["children"].each do |story|
     puts "#{term.strip.downcase} matches:"
     puts "title: " + story["data"]["title"]
     puts "url: " + story["data"]["url"]
+    puts "reddit url: " + story["data"]["permalink"]
    end
   end
 end
