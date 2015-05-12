@@ -1,4 +1,4 @@
-require 'pry'
+#require 'pry'
 require 'httparty'
 
 resp = HTTParty.get("http://reddit.com/r/nba/.json")

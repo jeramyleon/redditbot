@@ -1,0 +1,10 @@
+{
+  "settings":{
+    "sub-reddits":{
+      "nba":{
+        "url":"http://reddit.com/r/nba/.json",
+        "term":"jebron, james, curry" 
+      }
+    }
+  }
+}
