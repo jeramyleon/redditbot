@@ -1,7 +1,13 @@
 #require 'pry'
 require 'httparty'
 
+class Bot
+
 resp = HTTParty.get("http://reddit.com/r/nba/.json")
+
+def search(input,resp)
+
+attr_accessor :resp
 
 prefix = "http://reddit.com/" 
 
@@ -18,3 +24,6 @@ resp["data"]["children"].each do |story|
    end
   end
 end
+end
+
+  
