@@ -6,7 +6,7 @@
     },
     "programming":{
       "url":"http://reddit.com/r/programming/.json",
-      "term":"ruby, python, javascript" 
+      "terms":"ruby, python, javascript" 
     }
   }
 }

@@ -12,7 +12,9 @@ class Bot
 
   def search
     @settings["sub-reddits"].each do |key, val|
+      puts " "
       puts "In #{key} sub-reddit looking for terms #{val["terms"]}:"
+      #since we did "include HTTParty up top, we just need to say self.class.get
       reddit_data = self.class.get(val["url"])
       reddit_data["data"]["children"].each do |story|
         val["terms"].split(/,/).each do |term|
@@ -21,7 +23,7 @@ class Bot
             puts "#{term.strip.downcase} matches:"
             puts "title: " + story["data"]["title"]
             puts "url: " + story["data"]["url"]
-            puts "reddit url: " + prefix + story["data"]["permalink"]
+            puts "reddit url:  http://reddit.com" + story["data"]["permalink"]
           end
         end
       end
