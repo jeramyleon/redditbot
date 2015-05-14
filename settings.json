@@ -9,7 +9,7 @@
       "terms":"ruby, python, javascript" 
      },
     "pics":{
-       "url": "https://www.reddit.com/r/pics/.json",
+       "url": "http://www.reddit.com/r/pics/.json",
        "terms": "animal,car,funny"
      }
   }
