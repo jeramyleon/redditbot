@@ -7,6 +7,10 @@
     "programming":{
       "url":"http://reddit.com/r/programming/.json",
       "terms":"ruby, python, javascript" 
-    }
+     },
+    "pics":{
+       "url": "https://www.reddit.com/r/pics/.json",
+       "terms": "animal,car,funny"
+     }
   }
 }
