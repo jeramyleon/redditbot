@@ -12,5 +12,6 @@ Using the bot:
 ==============
 
 ```code
-  ruby lib/bot.rb "lebron, howard, jordan" 
+  ruby lib/bot.rb 
+  The bot reads from the settings.json file. Edit that file so the bot can find what you're looking for.
 ```
